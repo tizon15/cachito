@@ -1,0 +1,43 @@
+// .collapse.navbar-collapse{
+//   justify-content: center;
+// }
+// .navbar-expand-lg .navbar-nav .nav-link{
+//   padding-right:  3.5em;
+// }
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  padding: 3em;
+  margin-left: 8em;
+}
+
+.nav-item {
+  padding: 2em;
+}
+
+.logo {
+  text-align: end;
+}
+
+.nav-link {
+  color: black;
+  display: inline-block;
+
+}
+
+.ti-shopping-cart {
+  font-size: 24px;
+}
+
+.icon-item-new {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #c00;
+  border-radius: 100%;
+  display: block;
+}
+
+.icon-demo-icon {
+  position: relative;
+  margin: 0 0.25rem;
+}

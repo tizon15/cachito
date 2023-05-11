@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg">
+  <div >
+  <a class="navbar-brand logo" [routerLink]="['/main']">
+    <img src="assets/logo_cachito.jpg" width="80" height="80" alt="" />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</div>
+  <div class="collapse navbar-collapse col-md-10" id="navbarSupportedContent">
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <i class="ti ti-home"></i>
+        <a class="nav-link" [routerLink]="['/main']"
+          >Inicio <span class="sr-only">(current)</span></a
+        >
+
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Condiciones de envio</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['/shop']">Haz tu pedido</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Hosteleria y eventos</a>
+      </li>
+      <li class="nav-item active"><a class="nav-link" href="#">Contacto</a></li>
+      <div  class="icon-demo-icon nav-item nav-link">
+        <div *ngIf="hasItems" class="icon-item-new"></div>
+          <i class="ti ti-shopping-cart"></i>
+      </div>
+    </ul>
+  </div>
+</nav>
